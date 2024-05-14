@@ -31,21 +31,21 @@ img {
 
 /* This is where I have chosen to insert my fonts*/
 h1 {
-     font-family:"Neuton", "sans-serif" ;
+     font-family:"Empire", "sans-serif" ;
     font-weight: 400;
     font-style: normal;
   }
 
   p {
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Empire", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'alex_brushregular';
-    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
-         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-family: '';
+    src: url('../fonts/Empire') format('woff2'),
+         url('../fonts/Empire') format('woff');
     font-weight: normal;
     font-style: normal;
   }
