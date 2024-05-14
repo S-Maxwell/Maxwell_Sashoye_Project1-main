@@ -23,12 +23,15 @@ article {
     grid-column: 1/-1;
 }
 
-
+img { 
+    max-width:100%;
+    max-height: fit-content;
+}
 
 
 /* This is where I have chosen to insert my fonts*/
 h1 {
-    font-family: "Jersey 25", sans-serif;
+     font-family:"Neuton", "sans-serif" ;
     font-weight: 400;
     font-style: normal;
   }
@@ -85,11 +88,4 @@ font-size: 56px;
     font-size: 32px;
     border-radius: 5px;
     box-shadow: 3px 3px 0 rgb(80, 227,80);
-  }
-
-  /* This is where I have targeted the <img> elements  */
-
-  img {
-    max-width: 100%;
-    max-height: auto;
   }
